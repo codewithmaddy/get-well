@@ -1,8 +1,8 @@
 import React from "react";
 import "./css/Covidsection.css";
-import talk_1_img from "../static/covid_1.png";
-import talk_2_img from "../static/covid_2.png";
-import talk_3_img from "../static/covid_3.png";
+import talk_3_img from "../static/Doctor.jpg";
+import talk_2_img from "../static/vacine.jpg";
+import talk_1_img from "../static/covid_3.png";
 
 function Covidsection() {
   return (
@@ -16,7 +16,7 @@ function Covidsection() {
               <img src={talk_1_img} alt="material ui" />
             </div>
             <div class="bottom">
-              <p>Covid Recovered Person</p>
+              <p>Precatutios</p>
             </div>
           </div>
           <div class="card card-1">
@@ -24,7 +24,7 @@ function Covidsection() {
               <img src={talk_2_img} alt="material ui" />
             </div>
             <div class="bottom">
-              <p>Stranger</p>
+              <p>Vaccination</p>
             </div>
           </div>
           <div class="card card-1">
@@ -32,7 +32,7 @@ function Covidsection() {
               <img src={talk_3_img} alt="material ui" />
             </div>
             <div class="bottom">
-              <p>Stranger</p>
+              <p>Doctor Consult</p>
             </div>
           </div>
         </div>

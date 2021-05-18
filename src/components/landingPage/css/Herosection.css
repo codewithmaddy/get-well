@@ -1,0 +1,34 @@
+.Hero{
+    display: flex;
+    background: rgba(176, 196, 222, 0.5);
+    padding: 30px;
+    align-items: center;
+}
+
+.Hero_img{
+    padding:20px;
+    flex:0.5;
+}
+.Hero_img>img{
+    border-radius: 20px;
+}
+
+.Hero_text{
+    align-items: center;
+}
+
+.Hero_text_main{
+    font-size: 30px;
+}
+
+.Hero_text_sub{
+    font-size: 20px;
+}
+
+@media(max-width : 950px){
+    .Hero{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
