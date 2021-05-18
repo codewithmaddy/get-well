@@ -8,12 +8,12 @@
   margin-bottom: 10px;
 }
 
-.Talk > h1{
-    padding: 20px;
+.Talk > h1 {
+  padding: 20px;
 }
 
-.Talk_card{
-    display: flex;
+.Talk_card {
+  display: flex;
 }
 
 .card {
@@ -41,14 +41,15 @@
 }
 
 .card .bottom {
+  justify-content: center;
+  background-color: rgba(176, 196, 222, 0.2);;
   height: 80px;
   width: 100%;
-  align-items: center;
 }
 
 .card .bottom p {
-    align-self: center;
-  text-align: center;
+  justify-content: center;
+  font-weight: bold;
   height: 80px;
   width: 100%;
   box-sizing: border-box;
@@ -73,8 +74,8 @@
   cursor: pointer;
 }
 
-@media(max-width:750px){
-    .Talk_card{
-        flex-direction: column;
-    }
+@media (max-width: 750px) {
+  .Talk_card {
+    flex-direction: column;
+  }
 }
